@@ -1,0 +1,20 @@
+{
+  "name": "knotty-lock",
+  "version": "1.0.0",
+  "description": "Basic lock system for asynchronous requests (ex: Ajax)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viralwarrior012/knotty-lock.git"
+  },
+  "keywords": [
+    "knottysoft",
+    "lock"
+  ],
+  "author": "Roland Durocher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viralwarrior012/knotty-lock/issues"
+  },
+  "homepage": "https://github.com/viralwarrior012/knotty-lock#readme"
+}
