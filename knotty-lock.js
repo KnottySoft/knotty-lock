@@ -1,7 +1,7 @@
 'use strict'
 /* Description: Asynchronous middleware callback registration, essentially checks if the provided asynchronous function hasnt already been called */
 /* Developper: Roland Durocher (viralwarrior012)*/
-
+/* LICENSE: MIT */
 var knottyLock = (function() {
     var called = [];
 
@@ -37,3 +37,5 @@ var knottyLock = (function() {
         remove: remove
     };
 })();
+
+exports = module.exports = knottyLock;

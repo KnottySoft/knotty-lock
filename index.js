@@ -1,3 +1,3 @@
 'use strick';
 
-var knottyLock = require("knotty-lock.js");
+module.exports = require("./knotty-lock");
