@@ -15,7 +15,11 @@ Once that's done, it's as simple as englobing the lock around your request, and 
 if (knottyLock.add(keyOfYourChoosing)) { //ajax request here } 
 ```
 
+<<<<<<< HEAD
 ###To unlock
+=======
+###To unlock: 
+>>>>>>> master
 ```javascript
  knottyLock.remove(keyOfYourChoosing); /* once request is complete (success, erroc, etc.) */
 ```
