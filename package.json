@@ -1,6 +1,6 @@
 {
   "name": "knotty-lock",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Basic lock system for asynchronous requests (ex: Ajax)",
   "main": "index.js",
   "repository": {
