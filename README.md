@@ -19,4 +19,4 @@ if (knottyLock.add(keyOfYourChoosing)) { //ajax request here }
  knottyLock.remove(keyOfYourChoosing); /* once request is complete (success, erroc, etc.) */
 ```
     
-#### View the example for more a good overview of how it works
+#### View the example for a better overview of how it works
