@@ -12,25 +12,11 @@ Once that's done, it's as simple as englobing the lock around your request, and 
 
 ###To lock: 
 ```javascript
-if (knottyLock.add(id, func)) { //ajax request here } 
+if (knottyLock.add(keyOfYourChoosing)) { //ajax request here } 
 ```
-Parameters: 
 
-=> id: DOM Element but can be anything 
-
-=> func: Function name but can be anything
-
-=> returns: true if the request does not exists presently, false if it exists and has not been released.
-
-** note that if the parameters for each request are different, it will never block the request
-
-###To unlock: 
 ```javascript
- knottyLock.remove(id,func); /* once request is complete (success, erroc, etc.) */
+ knottyLock.remove(keyOfYourChoosing); /* once request is complete (success, erroc, etc.) */
 ```
-Parameters: 
-
-=> returns: true if the requests exists and was removed, false if it does not
-
-** note that if the parameters of the element to release do not exist, nothing will happen (returns false)
     
+#### View the example for a better overview of how it works
