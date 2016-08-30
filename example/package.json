@@ -1,0 +1,22 @@
+{
+  "name": "knotty-lock-example",
+  "version": "1.0.0",
+  "description": "example of the knotty-lock library",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "lock",
+    "example"
+  ],
+  "author": "Roland Durocher (viralwarrior012)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
